@@ -6,49 +6,60 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ANONYMOUS PROXY</title>
-  <link rel="reset.scss" href=".">
+  <script src="https://kit.fontawesome.com/5168f8ef34.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./assets/css/main.css">
 </head>
 
 <body>
   <header class="header">
-    <img src="./assets/images/ico-menu.png" alt="menu">
+    <div class="iconmenu">
+      <p><i class="fa-solid fa-bars iconmenu" style="color: #ffffff;"></i></p>
+    </div>
   </header>
 
   <main class="hero">
-    <h1>ANONYMOUS PROXY</h1>
-    <p>In hac habitasse platea ductumst.</p>
+    <div class="icon2">
+      <p><i class="fa-solid fa-chevron-down iconarrowdown" style="color: #f26002;"></i></p>
+    </div>
+    <h1 class="hero__title">ANONYMOUS PROXY</h1>
+    <p class="hero__title--text">In hac habitasse platea ductumst.</p>
   </main>
 
-  <section class="section1">
-    <p>Insomnia Tips</p>
-    <h2>Looking Through A Window</h2>
-    <p>Donec accumsan, nulla ut volutpat porttitor, quam odio tempus felis, at luctus ex diam nec lectus. Vivamus semper sodales rutrum.</p>
-    <button>Go</button> 
+  <section class="hero__section1">
+    <p class="text1">Insomnia Tips</p>
+    <h2 class="subtitle2">Looking Through A Window</h2>
+    <p class="textsection1">Donec accumsan, nulla ut volutpat porttitor, quam odio tempus felis, at luctus ex diam nec lectus. Vivamus semper sodales rutrum.</p>
+    <button class="buttongo">Go</button> 
   </section>
 
-  <section class="section2">
-    <h2>3 Reasons To Puschase</h2>
+  <section class="hero__section2">
+    <h2 class="subtitle2">3 Reasons To Puschase</h2>
     <article>
-      <h3>Ut sed metus</h3>
+      <h3 class="subtitle3">Ut sed metus</h3>
       <p>Lorem ipsum dolor sit amet, consecteur</p>
     </article>
 
     <article>
-      <h3>Curabitur ac erat</h3>
+      <h3 class="subtitle3">Curabitur ac erat</h3>
       <p>Mauris mattis urna quis lorem molestie.</p>
     </article>
 
     <article>
-      <h3>Morbi dictum</h3>
+      <h3 class="subtitle3">Morbi dictum</h3>
       <p>Aliquam in dolor et dolor tincidunt.</p>
     </article>
-    <button>More reasons</button>
+    <button class="buttonmore"><span class="textbutton">More reasons</span></button>
   </section>
 
   <footer class="footer">
-    <nav>
-      <ul>
+    <div class="icon3">
+      <p><i class="fa-solid fa-arrow-up iconarrowup" style="color: #f26002;"></i></p>
+    </div>
+    <nav class="menunav">
+      <ul class="menulist1">
         <li>ARTICLES</li>
         <li>BOOKS</li>
         <li>EVENTS</li>
@@ -57,17 +68,15 @@
       </ul>
     </nav>
 
-    <nav>
-      <ul>
+    <nav class="menunav">
+      <ul class="menulist2">
         <li>TWITTER</li>
         <li>INSTAGRAM</li>
         <li>MASTODON.SOCIAL</li>
       </ul>
     </nav>
-
-     2023
-   we ❤︎ components
-
+    <p class="copy2023">&copy; 2023</p>
+    <p class="textheart">we <i class="fa-solid fa-heart heart" style="color: #f26002;"></i>components</p>
   </footer>
   
 </body>
