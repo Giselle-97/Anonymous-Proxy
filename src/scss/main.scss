@@ -1,20 +1,22 @@
+@import 'core/reset';
 
 :root{
    font-size: 62,5%;
 }
  /*'Roboto',sans-serif;
  'Roboto Slab',serif;*/
+ 
 /*SECCION HEADER*/
 .header{
     background-color: #0271bc;
+    display: flex;
+    justify-content: center;
     position: fixed;
     width: 44px;
     height: 44px;
 }
 .iconmenu{
-    display: flex;
-    justify-content: center;
-
+margin: auto;
 }
 
 /*SECCION HERO*/
@@ -71,8 +73,11 @@
  /*HERO SECTION 1*/
 .hero__section1{
    background-color: #ffffff;
-    height: 376px;   /* margin: 568px 0 0; */
+    height: 350px;   /* margin: 568px 0 0; */
+    width: 320px;
     padding: 30px 15px 45px;
+   
+        
 }
 
 .text1{
@@ -103,16 +108,26 @@
 .buttongo{
     background-color: #ffffff;
     color: #f26002;
+    font-size: 20px;
     width: 76px;
     height: 45px;
     margin: 30px 214px 0 0;
-    padding: 0 25px 0 26px;
+    padding: 0 25px 0 25px;
     border-radius: 22.5px;
-    border: solid 2px #f26002;
+    border: solid 3px #f26002;
+}
+.textbuttongo{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    width: 25px;
+    height: 45px;
+    line-height: 2.25;
+    font-weight: bold;
 }
 /*HERO SECTION 2*/
 .hero__section2 {
     display: grid;
+  
     background-color: #eff9ff;
     height: 624px;
    /* margin: 376px 0 0;*/
@@ -147,7 +162,7 @@
     border-radius: 22.5px;
     border:none;
 }
-.textbutton{
+.textbuttonmore{
     color: #ffffff;
     width: 124px;
     height: 45px;
@@ -185,10 +200,7 @@
     align-items: center;
     width: 20.6px;
     height: 24px;
-  
-       
-       
-    }
+  }
 
 .menunav{
     display: flex;
@@ -206,8 +218,8 @@
     text-align: center;
     color:#ffffff;
     }
+
 .menulist2{
-    
     color: #ffffff;
     text-align: center;
     list-style-type: none;
@@ -218,28 +230,30 @@
     font-size: 16px;
     line-height: 1.88; 
     }
+
 .copy2023{
-    background-color: #f26002;
     color: #ffffff;
     text-align: center;
     font-family: 'Roboto',sans-serif;
-    width: 77px;
-    height: 30px;
-    margin: 30px 100px 0 106px;
     font-size: 14px;
     line-height: 2.14;
-    }
-.heart{
-    margin: 2px;
+    width: 77px;
+    height: 30px;
+    margin: 30px auto 0;
 }
+
+.heart{
+    margin: 3px;
+}
+
 .textheart{
+    
     color: #ffffff;
     text-align: center;
     font-family:'Roboto',sans-serif;
-    width: 290px;
+    width: 320px;
     height: 30px;
-    margin: 5px 0 0;
+    margin: 0 15px 55px;
     font-size: 14px;
-    line-height: 2.14;
-       
+    line-height: 2.14;     
 }
