@@ -1,0 +1,77 @@
+.section2 {
+    background-color: #eff9ff;
+    height: 550px;
+    padding: 30px 15px 60px;
+}
+
+.section2__subtitle2 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto Slab', serif;
+    width: 290px;
+    height: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 1px 0 45px;
+    line-height: 1.25;
+}
+
+.section2__article {
+    background-color: #f26002;
+    margin-top: 45px;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px;*/
+
+}
+
+.section2__article--subtitle3 {
+    width: 184px;
+    height: 30px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.67;
+    text-align: center;
+    color: #000000;
+    margin: auto;
+}
+
+.section2__article--textsection2 {
+    color: #000000;
+    display: grid;
+
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    width: 180px;
+    height: 63px;
+    margin: auto;
+    line-height: 1.67;
+}
+
+.buttonmore {
+    background-color: #f26002;
+    width: 184px;
+    height: 45px;
+    margin: 45px 53px 60px;
+    padding: 0 29.5px 0 30.5px;
+    border-radius: 22.5px;
+    border: none;
+}
+
+.buttonmore__textbuttonmore {
+    color: #ffffff;
+    width: 124px;
+    height: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 2.25;
+    text-align: center;
+}
+
+/* DARLE ESTILOS A LOS BOTONES BONUS 
+clase a:hover/active {
+    color
+}*/
