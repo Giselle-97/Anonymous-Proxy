@@ -38,7 +38,6 @@
 
 .sectionwhite__buttongo {
     background-color: #ffffff;
-    color: #f26002;
     font-size: 20px;
     width: 76px;
     height: 45px;
@@ -54,4 +53,8 @@
     width: 25px;
     height: 45px;
     font-weight: bold;
+}
+.sectionwhite__buttongo a{
+    text-decoration: none;
+    color: #f26002;
 }

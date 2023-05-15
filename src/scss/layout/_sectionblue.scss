@@ -54,7 +54,6 @@
 }
 
 .buttonmore__textbuttonmore {
-    color: #ffffff;
     width: 124px;
     height: 45px;
     font-family: 'Roboto', sans-serif;
@@ -62,6 +61,10 @@
     font-weight: 500;
     line-height: 2.25;
     text-align: center;
+}
+.buttonmore a{
+    text-decoration: none;
+    color:#ffffff; 
 }
 
 /* DARLE ESTILOS A LOS BOTONES BONUS 
