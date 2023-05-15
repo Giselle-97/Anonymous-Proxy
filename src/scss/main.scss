@@ -11,5 +11,133 @@
    $color__secundary:#f26002;
 }
 
+/*VERSIÓN TABLET*/
+/* Hero*/
+@media screen and (min-width : 768px){
 
+.hero__iconarrow1{
+   transform: translateY(680px);
+}
+   .hero__title{
+      width: 690px;
+      height: 212px;
+      font-size: 80px; 
+      line-height: 1.33;
+      margin: 340px 0 20px 39px;
+   }
+   .hero__title--text {
+      font-size: 24px;
+      width: 450px;
+      height: 32px;
+      margin: 20px 160px 30px 160px;
+      }
+}
 
+/*SECTION WHITE*/
+@media screen and (min-width : 768px) {
+
+   .sectionwhite {
+      height: 350px;
+      padding: 30px 39px 60px;
+      }
+   .sectionwhite__textblue {
+      width: 216px;
+      margin: 10px 474px 25px 0;
+      font-size: 20px;
+      }
+   .sectionwhite__subtitle1 {
+      width: 410px;
+      height: 45px;
+      font-size: 30px;
+      line-height: 1.73;
+      }
+   .sectionwhite__textsectionwhite{
+      width: 690px;
+      height: 60px;
+      margin: 50px 0 40px 0;
+      font-size: 22px;
+      line-height: 1.5;
+   }
+   .sectionwhite__buttongo {
+      width: 100px;
+      margin: 30px 600px 0 0;
+      padding: 0 32px 0 32px; 
+ }
+   .sectionwhite__buttongo--textbuttongo {
+      font-size: 22px;  
+   } 
+}
+
+/*SECTION BLUE*/
+@media screen and (min-width : 768px) {
+   .sectionblue {
+      height: 660px;
+   }
+   .sectionblue__subtitle2 {
+      background-color: #f26002;
+      font-size: 30px;
+      line-height: 1.73;
+      width: 450px;
+      margin: auto;
+      }
+   .sectionblue__article--subtitle3{
+      background-color: red;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 210px;
+      font-size: 24px;
+      line-height: 1.25px;
+      /*margin: 0 0 14px 2.3px;*/
+   }
+   .sectionblue__article--textsectionblue{
+      background-color: #f26002;
+      display: flex;
+      column-gap: 70px;
+      font-size: 22px;
+      width: 220px;
+      height: 68px;
+      line-height: 1.5;
+   } 
+      .buttonmore {
+         width: 230px;
+         margin: 60px 27px 0 29px;
+         padding: 0 42.5px 0 43.5px;
+      }
+   
+      .buttonmore__textbuttonmore {
+         width: 124px;
+         height: 45px;
+         font-size: 22px;
+         line-height: 2.25;
+        
+      }
+}
+
+/*FOOTER*/
+
+@media screen and (min-width : 768px) {
+   .footer{
+    height: 380px;
+   }
+   .menunav {
+    background-color: #f26002;
+    display: inline-block;
+    margin-left: 80px;
+     
+      }
+
+   .menunav__menulist1 {
+     width: 50px;
+     height: 120px;
+     font-size: 18px;
+     padding: 15px;
+     margin-left: 0;
+      }
+   .menunav__menulist2 {
+      text-align: center;
+      list-style: none;
+      font-family: 'Roboto', sans-serif;
+      line-height: 1.88;
+ }
+}
