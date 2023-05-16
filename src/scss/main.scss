@@ -12,7 +12,19 @@
 }
 
 /*VERSIÓN TABLET*/
-/* Hero*/
+/*HEADER*/
+@media screen and (min-width : 768px) {
+
+   .header {
+      width: 50px;
+      height: 50px;
+   }
+
+   .header__iconmenu {
+      font-size: 19px;
+   }
+}
+/*HERO*/
 @media screen and (min-width : 768px){
 
 .hero__iconarrow1{
@@ -69,6 +81,7 @@
 }
 
 /*SECTION BLUE*/
+
 @media screen and (min-width : 768px) {
    .sectionblue {
       height: 660px;
@@ -92,8 +105,9 @@
    }
    .sectionblue__article--textsectionblue{
       background-color: #f26002;
-      display: flex;
-      column-gap: 70px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-row: 1fr 1fr 1fr;
       font-size: 22px;
       width: 220px;
       height: 68px;
@@ -150,23 +164,86 @@
 
 /*VERSIÓN DESKTOP*/
 @media screen and (min-width : 1024px) {
+
+   /*HEADER*/
+   .header {
+      width: 60px;
+      height: 60px;
+      font-size: 28px;
+   }
+}
+@media screen and (min-width : 1024px) {
+   /*HERO*/
    .hero{
       height: 1000px;
    }
+.hero__iconarrow1 {
+   width: 60px;
+   height: 60px;
+   transform: translateY(920px);
+}
+.hero__iconarrow1--iconarrowdown {
+   font-size: 30px;
+}
    .hero__title {
-      background-color: #f26002;
       line-height: 1.32;
-      font-size: 100px;
+      font-size: 110px;
       width: 730px;
       height: 264px;
-      margin:340px 150px 0 150px;
+      margin: 470px 150px 0 150px;
    }
 
    .hero__title--text {
-      font-size: 16px;
-      width: 290px;
-      height: 21px;
-      margin: 10px 0 45px 15px;
+      font-size: 30px;
+      width: 550px;
+      height: 32px;
+      margin: 50px 240px 20px 240px;
    }
+}
+
+/*SECTION WHITE*/
+@media screen and (min-width : 1024px) {
+   .sectionwhite {
+      height: 300px;
+     
+   }
+   .sectionwhite__textblue {
+      width: 320px;
+      height: 30px;
+      margin: 0 0 0 110px;
+      font-size: 20px;
+      line-height: 1.88;
+}
+   .sectionwhite__subtitle1 {
+      width: max-content;
+      height: 60px;
+      font-size: 38px;
+      margin: 0 0 0 110px;
+      line-height: 1.88;
 
 }
+   .sectionwhite__textsectionwhite {
+      width: 820px;
+      height: 70px;
+      margin: 40px 0 30px 110px;
+      font-size: 23px;
+      line-height: 1.5;
+}
+   .sectionwhite__buttongo {
+      font-size: 20px;
+      width: 180px;
+      height: 50px;
+      margin: 5px 214px 0 110px;
+      padding: 0 25px 0 25px;
+      border-radius: 22.5px;
+}
+   .sectionwhite__buttongo--textbuttongo {
+      font-size: 25px;
+}
+}
+/*SECTION BLUE*/
+@media screen and (min-width : 1024px) {
+}
+
+/*FOOTER*/
+@media screen and (min-width : 1024px) {}
