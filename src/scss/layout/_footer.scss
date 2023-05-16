@@ -2,19 +2,22 @@
   background-color: #304268;
   padding: 60px 15px 45px;
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
 }
 
 .footer__iconarrow2 {
+  background-color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #ffffff;
-  width: 45px;
-  height: 45px;
   border-radius: 100%;
   position: absolute;
-  transform: translateY(-80px);
+  width: 45px;
+  height: 45px;
+  transform: translateY(-230px);
 }
 
 .footer__iconarrow2 a {
@@ -22,17 +25,11 @@
 }
 
 .footer__iconarrow2--iconarrowup {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 20.6px;
-  height: 24px;
   font-size: 25px;
 }
 
 .menunav {
-  display: flex;
-  justify-content: center;
+
 }
 
 .menunav__menulist1 {
@@ -40,6 +37,7 @@
   font-family: 'Roboto', sans-serif;
   line-height: 1.88;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .menunav__menulist2 {
@@ -47,6 +45,7 @@
   list-style: none;
   font-family: 'Roboto', sans-serif;
   line-height: 1.88;
+  margin-bottom: 20px;
 }
 
 
@@ -61,8 +60,7 @@
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   line-height: 2.14;
-  width: 77px;
-  height: 30px;
+ 
 }
 
 .container__textheart {
@@ -76,4 +74,65 @@
 
 .container__textheart--heart {
   margin: 3px;
+}
+
+
+@media screen and (min-width : 768px) {
+  .footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    gap: 50px;
+  }
+
+  .footer__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+  }
+  .container {
+    font-size: 16px;
+    order: -1;
+    width: 160px;
+  }
+  .menunav {
+    width: max-content;
+  }
+  .footer__iconarrow2 {
+    transform: translateY(-145px);
+     }
+  .menunav__menulist1 {
+    order: 2;
+  }
+  .menunav__menulist2 {
+    order: 3;
+  }
+  .container__copy2023 {
+    text-align: start;
+  }
+  .container__textheart {
+    text-align: start;
+  }
+}
+
+
+@media screen and (min-width : 1280px) {
+  .footer__container {
+    gap: 90px;
+    }
+  .menunav {
+    font-size: 18px;
+  }
+  .footer__iconarrow2{
+    transform: translateY(-150px);
+  }
+  .container__copy2023 {
+    font-size: 18px;
+  }
+
+  .container__textheart {
+    font-size: 18px;
+  }
 }
