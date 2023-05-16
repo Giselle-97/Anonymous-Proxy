@@ -83,31 +83,39 @@
 /*SECTION BLUE*/
 
 @media screen and (min-width : 768px) {
-   .sectionblue {
-      height: 660px;
-   }
-   .sectionblue__subtitle2 {
-      background-color: #f26002;
-      font-size: 30px;
-      line-height: 1.73;
-      width: 450px;
-      margin: auto;
-      }
-   .sectionblue__article--subtitle3{
-      background-color: red;
+   .sectionblue{
       display: flex;
       justify-content: center;
       align-items: center;
-      width: 210px;
+      flex-direction: column;
+      text-align: center;
+   }
+   .sectionblue__subtitle2 {
+      text-align: center;
+      font-size: 30px;
+      line-height: 1.73;
+      height: 50px;
+      margin: 0;
+      }
+      .articles{
+         display: grid;
+         grid-template-columns: 1fr 1fr 1fr;
+         grid-row: 1fr;
+         margin: 30px 0;
+      }
+      .sectionblue__article{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column;
+         text-align: center;
+      }
+   .sectionblue__article--subtitle3{
+      width: 250px;
       font-size: 24px;
       line-height: 1.25px;
-      /*margin: 0 0 14px 2.3px;*/
    }
    .sectionblue__article--textsectionblue{
-      background-color: #f26002;
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      grid-row: 1fr 1fr 1fr;
       font-size: 22px;
       width: 220px;
       height: 68px;
@@ -115,8 +123,8 @@
    } 
       .buttonmore {
          width: 230px;
-         margin: 60px 27px 0 29px;
          padding: 0 42.5px 0 43.5px;
+         text-align: center;
       }
    
       .buttonmore__textbuttonmore {
@@ -132,38 +140,49 @@
 
 @media screen and (min-width : 768px) {
    .footer{
-    height: 350px;
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+      text-align: center;
+   }
+ .footer__container{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   gap: 130px;
+
+ }
+   .container{
+      font-size: 16px;
+      order: -1;
+      width: 160px;
+
    }
    .menunav {
-    background-color: #f26002;
-    display: inline-block;
-    margin: 5px 0px 100px 0;
-   
+    width: max-content;
    }
 
    .menunav__menulist1 {
-     width: 50px;
-     height: 120px;
-     font-size: 18px;
-     padding: 15px;
-     margin-left: auto;
-     text-align: justify;
+     order: 2;
    }
 
    .menunav__menulist2 {
-      width: 180px;
-      height: 90px;
-      font-size: 18px;
-      padding: 15px;
-      margin-left: auto;
-      text-align: justify;  
+      order: 3;
  }
+ .container__copy2023{
+   text-align: start;
+ }
+ .container__textheart {
+   text-align: start;
+
+ }
+
 }
 
 
 
 /*VERSIÓN DESKTOP*/
-@media screen and (min-width : 1024px) {
+@media screen and (min-width : 1280px) {
 
    /*HEADER*/
    .header {
@@ -202,7 +221,7 @@
 }
 
 /*SECTION WHITE*/
-@media screen and (min-width : 1024px) {
+@media screen and (min-width : 1280px) {
    .sectionwhite {
       height: 300px;
      
@@ -242,8 +261,8 @@
 }
 }
 /*SECTION BLUE*/
-@media screen and (min-width : 1024px) {
+@media screen and (min-width : 1280px) {
 }
 
 /*FOOTER*/
-@media screen and (min-width : 1024px) {}
+@media screen and (min-width : 1280px) {}
