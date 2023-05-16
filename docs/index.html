@@ -1,68 +1,86 @@
 <!DOCTYPE html>
-<html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Adalab Web Starter Kit</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="./assets/css/main.css" />
-    <link rel="icon" href="./assets/images/favicon.png" />
-  </head>
+<html lang="en">
 
-  <body>
-    <div class="page">
-      <header class="page__header">
-        <img src="./assets/images/logo-adalab.png" alt="Adalab">
-        <h1>Bienvenidos a Adalab</h1>
-      </header>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ANONYMOUS PROXY</title>
+  <script src="https://kit.fontawesome.com/5168f8ef34.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/main.css">
+</head>
 
-      <main class="page__main">
-        <h2>Este es el starter kit de Adalab</h2>
-        <p>Lo usamos para aprender:</p>
-        <ul class="main__list">
-          <li>Sass</li>
-          <li>HTML partials</li>
-          <li>Gulp</li>
-          <li>y muchas cosas más</li>
-        </ul>
-        <p>Si quieres saber cúales son las rutas correctas para:</p>
-        <ul class="main__list">
-          <li>
-            una <code class="code">&lt;img /&gt;</code> mira el fichero
-            <code class="code">./src/html/partials/header.html</code>.
-          </li>
-          <li>
-            y para un <code class="code">background-image</code> mira el fichero
-            <code class="code">./src/html/scss/layout/_page.scss</code>.
-          </li>
-        </ul>
-        <p>
-          Si quieres saber cómo usar un partial HTML dentro de otro partial, busca en la carperta
-          <code class="code">./src/html/index.html</code> y
-          <code class="code">./src/html/partials/main.html</code>, y verás cómo estamos creando estos
-          enlaces:
-        </p>
-        <ul class="main__list">
-          <li>
-            <a class="link__adalab" href="https://adalab.es">Adalab</a>
-
-          </li>
-          <li>
-            <a class="" href="./more-info.html">Más info del starter kit</a>
-
-          </li>
-        </ul>
-      </main>
-
-      <footer class="page__footer">
-        <small>
-          &copy; Todos los derechos reservados
-          <a class="link__adalab" href="https://adalab.es">Adalab</a>
-
-        </small>
-      </footer>
-
+<body>
+<header class="header">
+    <div class="header__iconmenu">
+        <p><a href="https://adalab.es"><i class="fa-solid fa-bars iconmenu" style="color: #ffffff;"></a></i></p>
     </div>
-    <script src="./assets/js/main.js"></script>
-  </body>
+</header>
+<main class="hero" id="heroid">
+    <h1 class="hero__title">ANONYMOUS PROXY</h1>
+    <p class="hero__title--text">In hac habitasse platea ductumst.</p>
+    <div class="hero__iconarrow1">
+        <a href="#sectionblueid"><i class="fa-solid fa-chevron-down hero__iconarrow1--iconarrowdown"style="color: #f26002;"></i></a>
+    </div>
+</main>
+<section class="sectionwhite">
+    <p class="sectionwhite__textblue">Insomnia Tips</p>
+    <h2 class="sectionwhite__subtitle1">Looking Through A Window</h2>
+    <p class="sectionwhite__textsectionwhite">Donec accumsan, nulla ut volutpat porttitor, quam odio tempus felis, at luctus ex
+        diam nec lectus. Vivamus semper sodales rutrum.</p>
+    <button class="sectionwhite__buttongo"><span class="sectionwhite__buttongo--textbuttongo"><a href="https://adalab.es">Go</a></span></button>
+</section>
+<section class="sectionblue" id="sectionblueid">
+    <h2 class="sectionblue__subtitle2">3 Reasons To Puschase</h2>
+    <div class="articles">
+    <article class="sectionblue__article">
+        <h3 class="sectionblue__article--subtitle3">Ut sed metus</h3>
+        <p class="sectionblue__article--textsectionblue">Lorem ipsum dolor sit amet, consecteur</p>
+    </article>
+
+    <article class="sectionblue__article">
+        <h3 class="sectionblue__article--subtitle3">Curabitur ac erat</h3>
+        <p class="sectionblue__article--textsectionblue">Mauris mattis urna quis lorem molestie.</p>
+    </article>
+
+    <article class="sectionblue__article">
+        <h3 class="sectionblue__article--subtitle3">Morbi dictum</h3>
+        <p class="sectionblue__article--textsectionblue">Aliquam in dolor et dolor tincidunt.</p>
+    </article>
+    </div>
+    <button class="buttonmore"><span class="buttonmore__textbuttonmore"><a href="https://adalab.es">More reasons</a></span></button>
+</section>
+<footer class="footer">
+    <div class="footer__iconarrow2">
+        <p><a href="#heroid"><i class="fa-solid fa-arrow-up footer__iconarrow2--iconarrowup" style="color: #f26002;"></i></a></p>
+    </div>
+    <div class="footer__container">
+    <nav class="menunav">
+        <ul class="menunav__menulist1">
+            <li class="listlink"><a href="https://adalab.es">ARTICLES</a></li>
+            <li class="listlink"><a href="https://adalab.es">BOOKS</a></li>
+            <li class="listlink"><a href="https://adalab.es">EVENTS</a></li>
+            <li class="listlink"><a href="https://adalab.es">REASONS</a></li>
+            <li class="listlink"><a href="https://adalab.es">TIPS</a></li>
+        </ul>
+    </nav>
+
+    <nav class="menunav">
+        <ul class="menunav__menulist2">
+            <li class="listlink"><a href="https://adalab.es">TWITTER</a></li>
+            <li class="listlink"><a href="https://adalab.es">INSTAGRAM</a></li>
+            <li class="listlink"><a href="https://adalab.es">MASTODON.SOCIAL</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+    <p class="container__copy2023">&copy; 2023</p>
+    <p class="container__textheart">we <i class="fa-solid fa-heart container__textheart--heart" style="color: #f26002;"></i>components</p>
+    </div>
+    
+</footer>
+</body>
+
 </html>
