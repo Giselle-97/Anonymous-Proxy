@@ -1,31 +1,25 @@
 .header {
   background-color: #0271bc;
   display: flex;
-  justify-content: center;
   position: fixed;
-  width: 44px;
-  height: 44px;
-    &__iconmenu {
-  margin: auto;
-    }
-}
-
-@media screen and (min-width : 768px) {
-
-  .header {
-    width: 50px;
-    height: 50px;
+  width: 35px;
+  height: 35px;
+  &__iconmenu {
+    margin: auto;
   }
-
-  .header__iconmenu {
-    font-size: 19px;
+  @media screen and (min-width: 768px) {
+    width: 40px;
+    height: 40px;
   }
-}
-
-@media screen and (min-width : 1280px) {
-  .header {
+  @media screen and (min-width: 1024px) {
     width: 60px;
     height: 60px;
     font-size: 28px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header__iconmenu {
+    font-size: 19px;
   }
 }
