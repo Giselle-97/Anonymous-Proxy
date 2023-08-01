@@ -1,32 +1,25 @@
 .sectionblue {
-  background-color: #eff9ff;
+  background-color: $bgd-extra-light-blue;
   grid-template-columns: 1fr;
   grid-template-rows: 120px;
   padding: 30px 15px;
-  @media screen and (min-width: 768px) {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-  }
 }
 
 .sectionblue__subtitle2 {
   display: flex;
   justify-content: center;
-  font-family: 'Roboto Slab', serif;
+  font-family: $font-secundary;
   font-size: 22px;
   font-weight: bold;
   line-height: 1.25;
+  text-transform: capitalize;
   @media screen and (min-width: 768px) {
-    text-align: center;
     font-size: 24px;
     line-height: 1.73;
   }
   @media screen and (min-width: 1024px) {
+    padding-top: 15px;
     font-size: 38px;
-    line-height: 1.41;
   }
 }
 
@@ -41,7 +34,6 @@
   margin-top: 30px;
   @media screen and (min-width: 768px) {
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
     text-align: center;
@@ -49,15 +41,13 @@
 }
 
 .sectionblue__article--subtitle3 {
-  font-family: 'Roboto Slab', serif;
+  font-family: $font-primary;
   font-size: 18px;
   font-weight: bold;
   line-height: 1.67;
   text-align: center;
-  color: #000000;
-  margin: auto;
+  color: $black;
   @media screen and (min-width: 768px) {
-    width: 250px;
     font-size: 20px;
   }
   @media screen and (min-width: 1024px) {
@@ -66,52 +56,60 @@
 }
 
 .sectionblue__article--textsectionblue {
-  color: #000000;
+  color: $black;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: $font-secundary;
   font-size: 16px;
   width: 190px;
   margin: auto;
   line-height: 1.67;
   @media screen and (min-width: 768px) {
     font-size: 18px;
+    margin: 0;
   }
   @media screen and (min-width: 1024px) {
-    font-size: 23px;
+    font-size: 25px;
   }
 }
 
 .buttonmore {
-  background-color: #f26002;
+  background-color: $orange;
   display: block;
-  margin: 30px auto;
+  margin: 40px auto;
   padding: 0 25px;
-  border-radius: 22.5px;
+  border-radius: 22px;
   border: none;
+  @media screen and (min-width: 1024px) {
+    padding: 0 60px;
+  }
 }
 .buttonmore:hover {
-  background-color: rgb(255, 153, 0);
+  background-color: $light-orange;
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
   transition: all 0.4s ease-in-out;
 }
 
 .buttonmore__textbuttonmore {
-  font-family: 'Roboto', sans-serif;
+  font-family: $font-secundary;
   font-size: 18px;
   font-weight: 500;
   line-height: 2;
   @media screen and (min-width: 768px) {
     font-size: 20px;
   }
+  @media screen and (min-width: 1024px) {
+    font-size: 28px;
+    line-height: 1.8;
+  }
 }
 .buttonmore a {
   text-decoration: none;
-  color: #ffffff;
+  color: $white;
 }
 
 .buttonmore a:hover {
-  color: rgb(3, 99, 20);
+  color: $text-hover-btn;
   transition: all 0.4s ease-in-out;
 }
 .boxArrow {
@@ -119,7 +117,7 @@
   justify-content: center;
 }
 .sectionblue__iconarrow2 {
-  background-color: #ffffff;
+  background-color: $white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -130,6 +128,15 @@
   margin: auto;
   z-index: 10;
   transform: translateY(10px);
+  @media screen and (min-width: 768px) {
+    width: 45px;
+    height: 45px;
+  }
+  @media screen and (min-width: 1024px) {
+    width: 60px;
+    height: 60px;
+    transform: translateY(0);
+  }
 }
 .sectionblue__iconarrow2:hover {
   -webkit-transform: scale(1.1);
@@ -143,4 +150,10 @@
 
 .sectionblue__iconarrow2--iconarrowup {
   font-size: 20px;
+  @media screen and (min-width: 768px) {
+    font-size: 25px;
+  }
+  @media screen and (min-width: 1024px) {
+    font-size: 32px;
+  }
 }

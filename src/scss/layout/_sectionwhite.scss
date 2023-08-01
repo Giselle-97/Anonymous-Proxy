@@ -1,151 +1,100 @@
 .sectionwhite {
-  background-color: #ffffff;
-  //height: 310px;
+  background-color: $white;
   padding: 30px 10px;
+  @media screen and (min-width: 768px) {
+    padding: 30px 30px 60px;
+  }
 }
 
 .sectionwhite__textblue {
-  color: #8ccbea;
-  //width: 90px;
-  //height: 30px;
-  //margin: 0 200px 1px 0;
+  color: $light-blue;
   font-size: 14px;
-  font-family: 'Roboto', sans-serif;
+  font-family: $font-secundary;
   line-height: 2.14;
+  text-transform: capitalize;
+  @media screen and (min-width: 768px) {
+    font-size: 18px;
+    padding-bottom: 10px;
+  }
+  @media screen and (min-width: 1024px) {
+    padding-left: 90px;
+    font-size: 22px;
+  }
 }
 
 .sectionwhite__subtitle1 {
-  display: flex;
-  justify-content: center;
-  font-family: 'Roboto Slab', serif;
-  //width: 290px;
-  //height: 60px;
+  font-family: $font-primary;
   font-size: 22px;
   font-weight: bold;
-  //margin: 1px 0 15px;
   line-height: 1.25;
+  text-transform: capitalize;
+  @media screen and (min-width: 768px) {
+    font-size: 26px;
+    line-height: 1.73;
+  }
+  @media screen and (min-width: 1024px) {
+    font-size: 38px;
+    padding-left: 90px;
+  }
 }
 
 .sectionwhite__textsectionwhite {
-  font-family: 'Roboto', sans-serif;
-  color: #4a4a4a;
-  //width: 290px;
-  //height: 120px;
-  margin: 15px 0 30px;
+  font-family: $font-secundary;
+  color: $dark-gray;
+  padding: 15px 0 40px;
   font-size: 16px;
   line-height: 1.67;
-}
-
-.sectionwhite__buttongo {
-  background-color: #ffffff;
-  font-size: 16px;
-  //width: 76px;
-  //height: 45px;
-  //margin: 5px 214px 0 0;
-  padding: 0 25px 0 25px;
-  border-radius: 22px;
-  border: solid 3px #f26002;
-}
-
-.sectionwhite__buttongo--textbuttongo {
-  font-family: 'Roboto', sans-serif;
-  font-size: 20px;
-  width: 25px;
-  height: 45px;
-  font-weight: bold;
-}
-.sectionwhite__buttongo a {
-  text-decoration: none;
-  color: #f26002;
-}
-.sectionwhite__buttongo a:hover {
-  color: rgb(3, 99, 20);
-  transition: all 0.4s ease-in-out;
-}
-.sectionwhite__buttongo:hover {
-  border: solid 3px rgb(255, 153, 0);
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-  transition: all 0.4s ease-in-out;
-}
-
-@media screen and (min-width: 768px) {
-  .sectionwhite {
-    height: 350px;
-    padding: 30px 39px 60px;
-  }
-
-  .sectionwhite__textblue {
-    width: 216px;
-    margin: 10px 474px 25px 0;
+  @media screen and (min-width: 768px) {
     font-size: 20px;
   }
-
-  .sectionwhite__subtitle1 {
-    width: 410px;
-    height: 45px;
-    font-size: 30px;
-    line-height: 1.73;
-  }
-
-  .sectionwhite__textsectionwhite {
-    width: 690px;
-    height: 60px;
-    margin: 50px 0 40px 0;
-    font-size: 22px;
-    line-height: 1.5;
-  }
-
-  .sectionwhite__buttongo {
-    width: 100px;
-    margin: 30px 600px 0 0;
-    padding: 0 32px 0 32px;
-  }
-
-  .sectionwhite__buttongo--textbuttongo {
-    font-size: 22px;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .sectionwhite {
-    height: 300px;
-  }
-
-  .sectionwhite__textblue {
-    width: 320px;
-    height: 30px;
-    margin: 0 0 0 110px;
-    font-size: 20px;
-    line-height: 1.88;
-  }
-
-  .sectionwhite__subtitle1 {
-    width: max-content;
-    height: 60px;
-    font-size: 38px;
-    margin: 0 0 0 110px;
-    line-height: 1.88;
-  }
-
-  .sectionwhite__textsectionwhite {
-    width: 820px;
-    height: 70px;
-    margin: 40px 0 30px 110px;
+  @media screen and (min-width: 1024px) {
+    padding-left: 90px;
+    margin-right: 10px;
     font-size: 23px;
     line-height: 1.5;
   }
+}
 
-  .sectionwhite__buttongo {
+.sectionwhite__buttongo {
+  background-color: $white;
+  font-size: 16px;
+  padding: 0 25px;
+  border-radius: 22px;
+  border: solid 3px $orange;
+  @media screen and (min-width: 768px) {
+    padding: 0 30px;
+  }
+  @media screen and (min-width: 1024px) {
     font-size: 20px;
     width: 180px;
-    height: 50px;
-    margin: 5px 214px 0 110px;
-    padding: 0 25px 0 25px;
-    border-radius: 22.5px;
+    height: 45px;
+    margin-left: 90px;
   }
+}
 
-  .sectionwhite__buttongo--textbuttongo {
-    font-size: 25px;
+.sectionwhite__buttongo--textbuttongo {
+  font-family: $font-secundary;
+  font-size: 18px;
+  font-weight: bold;
+  @media screen and (min-width: 768px) {
+    font-size: 20px;
   }
+  @media screen and (min-width: 1024px) {
+    font-size: 28px;
+  }
+}
+
+.sectionwhite__buttongo a {
+  text-decoration: none;
+  color: $orange;
+}
+.sectionwhite__buttongo a:hover {
+  color: $text-hover-btn;
+  transition: all 0.4s ease-in-out;
+}
+.sectionwhite__buttongo:hover {
+  border: solid 3px $light-orange;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: all 0.4s ease-in-out;
 }

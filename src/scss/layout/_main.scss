@@ -11,49 +11,43 @@
   height: 100vh;
   text-align: center;
   @media screen and (min-width: 1024px) {
-    height: 1000px;
+    height: 700px;
   }
 }
 .hero__title {
-  color: #ffffff;
+  color: $white;
   font-weight: bold;
-  font-family: 'Roboto Slab', serif;
+  font-family: $font-primary;
   line-height: 1.31;
   font-size: 38px;
   margin-bottom: 10px;
-  &--text {
-    color: #ffffff;
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    margin-bottom: 45px;
-    @media screen and (min-width: 768px) {
-      font-size: 22px;
-    }
-    @media screen and (min-width: 1024px) {
-      font-size: 30px;
-      width: 550px;
-      height: 32px;
-      margin: 50px 240px 20px 240px;
-    }
-  }
   @media screen and (min-width: 768px) {
     font-size: 75px;
   }
   @media screen and (min-width: 1024px) {
-    line-height: 1.32;
     font-size: 110px;
-    width: 730px;
-    height: 264px;
-    margin: 470px 150px 0 150px;
+  }
+}
+.hero__title--text {
+  color: $white;
+  font-family: $font-secundary;
+  font-size: 16px;
+  margin-bottom: 45px;
+  @media screen and (min-width: 768px) {
+    font-size: 22px;
+  }
+  @media screen and (min-width: 1024px) {
+    font-size: 26px;
+    padding: 20px 0;
   }
 }
 
 .hero__iconarrow1 {
-  background-color: #ffffff;
+  background-color: $white;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 100%;
+  border-radius: 50%;
   width: 38px;
   height: 38px;
   margin-bottom: 45px;
@@ -73,7 +67,7 @@
 }
 
 .hero__iconarrow1--iconarrowdown {
-  background-color: #ffffff;
+  background-color: $white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -82,7 +76,7 @@
     font-size: 25px;
   }
   @media screen and (min-width: 1024px) {
-    font-size: 30px;
+    font-size: 32px;
   }
 }
 

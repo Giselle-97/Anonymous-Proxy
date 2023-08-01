@@ -1,43 +1,55 @@
 .footer {
-  background-color: #304268;
+  background-color: $dark-blue;
   padding: 40px 15px 20px;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.menunav {
+  @media screen and (min-width: 768px) {
+    padding-top: 60px;
+  }
 }
 
 .menunav__menulist {
   list-style: none;
-  font-family: 'Roboto', sans-serif;
+  font-family: $font-secundary;
   line-height: 1.88;
   text-align: center;
   margin-bottom: 20px;
+  @media screen and (min-width: 768px) {
+    font-size: 18px;
+  }
+  @media screen and (min-width: 1024px) {
+    font-size: 22px;
+  }
 }
 .menunav__menulist a:hover {
-  color: rgb(6, 249, 168);
+  color: $green-hover-text;
   transition: all 0.4s ease-in-out;
 }
 .listlink a {
-  color: #ffffff;
+  color: $white;
   text-decoration: none;
 }
 
 .container__copy2023 {
-  color: #ffffff;
+  color: $white;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: $font-secundary;
   font-size: 14px;
   line-height: 2.14;
+  @media screen and (min-width: 768px) {
+    font-size: 18px;
+  }
+  @media screen and (min-width: 1024px) {
+    font-size: 22px;
+  }
 }
 
 .container__textheart {
-  color: #ffffff;
+  color: $white;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: $font-secundary;
   height: 30px;
   font-size: 14px;
   line-height: 2.14;
@@ -48,54 +60,24 @@
 }
 
 @media screen and (min-width: 768px) {
-  .footer {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    text-align: center;
-    gap: 50px;
-  }
-
   .footer__container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    gap: 50px;
+    gap: 120px;
   }
+
   .container {
     font-size: 16px;
     order: -1;
-    width: 160px;
-  }
-  .menunav {
-    width: max-content;
-  }
-  .menunav__menulist1 {
-    order: 2;
-  }
-  .menunav__menulist2 {
-    order: 3;
-  }
-  .container__copy2023 {
-    text-align: start;
-  }
-  .container__textheart {
-    text-align: start;
   }
 }
 
-@media screen and (min-width: 1280px) {
-  .footer__container {
-    gap: 90px;
-  }
-  .menunav {
+.container__textheart {
+  text-align: start;
+  @media screen and (min-width: 768px) {
     font-size: 18px;
   }
-  .container__copy2023 {
-    font-size: 18px;
-  }
-
-  .container__textheart {
-    font-size: 18px;
+  @media screen and (min-width: 1024px) {
+    font-size: 22px;
   }
 }
