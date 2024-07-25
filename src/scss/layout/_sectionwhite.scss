@@ -1,100 +1,94 @@
 .sectionwhite {
-  background-color: $white;
-  padding: 30px 10px;
-  @media screen and (min-width: 768px) {
-    padding: 30px 30px 60px;
+    background-color: $white;
+    padding: 30px 10px;
+    @media screen and (min-width: 768px) {
+      padding: 30px 30px 60px;
+    }
   }
-}
-
-.sectionwhite__textblue {
-  color: $light-blue;
-  font-size: 14px;
-  font-family: $font-secundary;
-  line-height: 2.14;
-  text-transform: capitalize;
-  @media screen and (min-width: 768px) {
-    font-size: 18px;
-    padding-bottom: 10px;
+  
+  .sectionwhite__textblue {
+    color: $light-blue;
+    font-size: 14px;
+    font-family: $font-secundary;
+    line-height: 2.14;
+    text-transform: capitalize;
+    @media screen and (min-width: 768px) {
+      font-size: 18px;
+      padding-bottom: 10px;
+    }
+    @media screen and (min-width: 1024px) {
+      padding-left: 90px;
+      font-size: 22px;
+    }
   }
-  @media screen and (min-width: 1024px) {
-    padding-left: 90px;
+  
+  .sectionwhite__subtitle1 {
+    font-family: $font-primary;
     font-size: 22px;
+    font-weight: bold;
+    line-height: 1.25;
+    text-transform: capitalize;
+    @media screen and (min-width: 768px) {
+      font-size: 26px;
+      line-height: 1.73;
+    }
+    @media screen and (min-width: 1024px) {
+      font-size: 38px;
+      padding-left: 90px;
+    }
   }
-}
+  
+  .sectionwhite__textsectionwhite {
+    font-family: $font-secundary;
+    color: $dark-gray;
+    padding: 15px 0 40px;
+    font-size: 16px;
+    line-height: 1.67;
+    @media screen and (min-width: 768px) {
+      font-size: 20px;
+    }
+    @media screen and (min-width: 1024px) {
+      padding-left: 90px;
+      margin-right: 10px;
+      font-size: 23px;
+      line-height: 1.5;
+    }
+  }
+  
+  .sectionwhite__buttongo {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-family: $font-secundary;
+    font-weight: bold;
+    background-color: $white;
+    font-size: 16px;
+    padding: 2px 24px;
+    border-radius: 22px;
+    border: solid 3px $orange;
+    text-decoration: none;
+    color: $orange;
+    cursor: pointer;
+    @media screen and (min-width: 768px) {
+      font-size: 20px;
+      padding: 4px 30px;
+    }
+    @media screen and (min-width: 1024px) {
+      font-size: 24px;
+      padding: 6px 40px;
+      margin-left: 90px;
+    }
+  }  
 
-.sectionwhite__subtitle1 {
-  font-family: $font-primary;
-  font-size: 22px;
-  font-weight: bold;
-  line-height: 1.25;
-  text-transform: capitalize;
-  @media screen and (min-width: 768px) {
-    font-size: 26px;
-    line-height: 1.73;
+  .sectionwhite__buttongo:hover {
+    border: solid 3px $light-orange;
+    background-color: $light-orange;
+    color: $text-hover-btn;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: all 0.4s ease-in-out;
   }
-  @media screen and (min-width: 1024px) {
-    font-size: 38px;
-    padding-left: 90px;
-  }
-}
+  
+  
 
-.sectionwhite__textsectionwhite {
-  font-family: $font-secundary;
-  color: $dark-gray;
-  padding: 15px 0 40px;
-  font-size: 16px;
-  line-height: 1.67;
-  @media screen and (min-width: 768px) {
-    font-size: 20px;
-  }
-  @media screen and (min-width: 1024px) {
-    padding-left: 90px;
-    margin-right: 10px;
-    font-size: 23px;
-    line-height: 1.5;
-  }
-}
-
-.sectionwhite__buttongo {
-  background-color: $white;
-  font-size: 16px;
-  padding: 0 25px;
-  border-radius: 22px;
-  border: solid 3px $orange;
-  @media screen and (min-width: 768px) {
-    padding: 0 30px;
-  }
-  @media screen and (min-width: 1024px) {
-    font-size: 20px;
-    width: 180px;
-    height: 45px;
-    margin-left: 90px;
-  }
-}
-
-.sectionwhite__buttongo--textbuttongo {
-  font-family: $font-secundary;
-  font-size: 18px;
-  font-weight: bold;
-  @media screen and (min-width: 768px) {
-    font-size: 20px;
-  }
-  @media screen and (min-width: 1024px) {
-    font-size: 28px;
-  }
-}
-
-.sectionwhite__buttongo a {
-  text-decoration: none;
-  color: $orange;
-}
-.sectionwhite__buttongo a:hover {
-  color: $text-hover-btn;
-  transition: all 0.4s ease-in-out;
-}
-.sectionwhite__buttongo:hover {
-  border: solid 3px $light-orange;
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-  transition: all 0.4s ease-in-out;
-}
+  

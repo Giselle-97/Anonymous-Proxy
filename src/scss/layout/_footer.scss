@@ -23,10 +23,12 @@
     font-size: 22px;
   }
 }
+
 .menunav__menulist a:hover {
   color: $green-hover-text;
   transition: all 0.4s ease-in-out;
 }
+
 .listlink a {
   color: $white;
   text-decoration: none;
@@ -71,6 +73,7 @@
     order: -1;
   }
 }
+
 @media screen and (min-width: 1024px) {
   .footer__container {
     gap: 220px;
